@@ -1,0 +1,3 @@
+Question: In a few sentences describe what happens when a user types a URL into a browser and hits enter, and when the browser loads the page.
+
+Answer: The URL typed by the client is converted to an IP address using a DNS. A connection is then opened between the server and client. TCP is then used to transmit packets of information. Within these packets, meta data (data about the data) is transmitted from the server to the client about the type of information the client will receive. In a browser setting, this is typically http/css/js, but can be images, audio files, etc.
